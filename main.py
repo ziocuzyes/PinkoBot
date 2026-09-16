@@ -23,14 +23,14 @@ async def on_ready():
 async def on_member_join(member):
     channel = discord.utils.get(member.guild.text_channels, name=CHANNEL_NAME)
     if channel:
-        await channel.send(f"hello {member.mention}, welcome to the server!")
+        await channel.send(f"Welcome to the server, {member.mention}! Please enjoy your stay and make yourself at home here! We are very friendly!!)
 
 
 @bot.event
 async def on_member_remove(member):
     channel = discord.utils.get(member.guild.text_channels, name=CHANNEL_NAME)
     if channel:
-        await channel.send(f"{member.name} just left. goodbye!")
+        await channel.send(f"Awww goodbye, we're gonna miss you {member.name}...")
 
 
 bot.run(TOKEN)
