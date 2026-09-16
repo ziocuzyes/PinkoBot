@@ -5,7 +5,7 @@ from discord.ext import commands
 
 # --- settings you should edit ---
 TOKEN = os.environ["DISCORD_TOKEN"]  # set this in Railway's "Variables" tab, never hardcode it
-CHANNEL_NAME = "general"  # the text channel the bot will post hello/goodbye in
+CHANNEL_NAME = "𝙒𝙚𝙡𝙘𝙤𝙢𝙚-𝙇𝙚𝙖𝙫𝙚𝙨•°★👋"  # the text channel the bot will post hello/goodbye in
 # ---------------------------------
 
 intents = discord.Intents.default()
