@@ -23,7 +23,7 @@ async def on_ready():
 async def on_member_join(member):
     channel = discord.utils.get(member.guild.text_channels, name=CHANNEL_NAME)
     if channel:
-        await channel.send(f"Welcome to the server, {member.mention}! Please enjoy your stay and make yourself at home here! We are very friendly!!)
+        await channel.send(f"Welcome to the server, {member.mention}! Please enjoy your stay and make yourself at home here! We are very friendly!!")
 
 
 @bot.event
